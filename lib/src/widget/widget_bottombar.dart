@@ -78,6 +78,8 @@ Widget bottomBar(
                           ),
                           InkWell(
                             onTap: () {
+                              CircularProgressIndicator();
+                              Text("FAST FORWARDING_______________******************___________");
                               fastForward(controller: controller);
                             },
                             child: Icon(
